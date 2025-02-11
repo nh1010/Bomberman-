@@ -1,0 +1,30 @@
+DEPTH = 23;
+WIDTH = 8;
+ADDRESS_RADIX = HEX;
+DATA_RADIX = HEX;
+CONTENT
+BEGIN
+00 : background;
+01 : stone;
+02 : box;
+03 : idle-down;
+04 : idle-side;
+05 : idle-up;
+06 : walk-down1;
+07 : walk-down2;
+08 : walk-side1;
+09 : walk-side2;
+0a : walk-side3;
+0b : walk-up1;
+0c : walk-up2;
+0d : idle-down_blue;
+0e : idle-side_blue;
+0f : idle-up_blue;
+10 : walk-down1_blue;
+11 : walk-down2_blue;
+12 : walk-side1_blue;
+13 : walk-side2_blue;
+14 : walk-side3_blue;
+15 : walk-up1_blue;
+16 : walk-up2_blue;
+END;
